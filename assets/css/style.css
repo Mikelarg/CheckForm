@@ -1,0 +1,63 @@
+.input-check  {
+	-webkit-transition: all 0.3s ease 0.1s;
+	-moz-transition: all 0.3s ease 0.1s;
+	-o-transition: all 0.3s ease 0.1s;
+	transition: all 0.3s ease 0.1s;
+	border: 1px solid #CACACA;
+	font-family: arial, sans-serif;
+	font-size: 11px;
+	padding: 0 5px;
+	margin: 3px;
+	background: #FFFFFF;
+}
+
+.input-check:focus {
+	outline: none;
+	box-shadow: 0 0 5px #72bdbf;
+}
+
+.input-check.right {
+	box-shadow: 0 0 5px #5cb85c;
+}
+
+.input-check.wrong {
+	box-shadow: 0 0 5px firebrick;
+}
+
+.valCheck {
+	position: absolute;
+	opacity: 0;
+	left: 150px;
+	display: inline-block;
+}
+
+.valCheck[right="1"] .valCheckSymbol:after {
+	content: "\2714";
+	color: #5cb85c;
+}
+
+.valCheck[right="1"] .valCheckText {
+	color: #5cb85c;
+}
+
+.valCheck[right="0"] .valCheckSymbol:after {
+	content: "\2716";
+	color: firebrick;
+}
+
+.valCheck[right="0"] .valCheckText {
+	color: firebrick;
+}
+
+.valCheckSymbol {
+	display: inline-block;
+	float: left;
+	margin-right: 2px;
+}
+
+.valCheckText {
+	width:600px;
+	text-overflow: ellipsis;
+	display: inline-block;
+	float: left;
+}
