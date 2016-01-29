@@ -3,12 +3,6 @@
 	-moz-transition: all 0.3s ease 0.1s;
 	-o-transition: all 0.3s ease 0.1s;
 	transition: all 0.3s ease 0.1s;
-	border: 1px solid #CACACA;
-	font-family: arial, sans-serif;
-	font-size: 11px;
-	padding: 0 5px;
-	margin: 3px;
-	background: #FFFFFF;
 }
 
 .input-check:focus {
@@ -21,7 +15,7 @@
 }
 
 .input-check.wrong {
-	box-shadow: 0 0 5px firebrick;
+	box-shadow: 0 0 5px #CB0000;
 }
 
 .valCheck {
@@ -42,11 +36,17 @@
 
 .valCheck[right="0"] .valCheckSymbol:after {
 	content: "\2716";
-	color: firebrick;
+	color: #CB0000;
 }
 
 .valCheck[right="0"] .valCheckText {
-	color: firebrick;
+	color: #CB0000;
+}
+
+.valCheck[right="0"] {
+	background: rgb(255, 255, 255);
+	padding: 2px 0;
+	border-radius: 2px;
 }
 
 .valCheckSymbol {
