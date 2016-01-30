@@ -21,8 +21,8 @@ message — your error message
 Default HTML is —
 ```
 <div class = "valCheck">
-	<div class="valCheckSymbol"></div>
-	<div class = "valCheckText"></div>
+<div class="valCheckSymbol"></div>
+<div class = "valCheckText"></div>
 </div>
 ```
 ## Attributes
@@ -62,12 +62,10 @@ Checks variable, if it undefined returns def_val
 #### CheckFormHelper.isUndefined(value)
 Return true if value is undefined
 **Parameters:**  
-- value — variable for check  
-
+- value — variable for check
 ## Default check function
 #### validateEmail
 Validating your e-mail field.
-
 ## How to Work With Ajax fields
 1. Set your check method in attribute 'inputcheckajax'
 2. In your ajax check method after done loading data, call [CheckFormHelper.checkValAjax](#checkformhelper.checkvalajax) with need data
