@@ -50,7 +50,7 @@ called when field is empty (usually after blur event or after calling method che
 
 ## Utility methods  
 #### CheckFormHelper.checkValAjax(elem, val, addHTML)  
-Call it after Ajax check. For better knowledge how work with Ajax fields go   [here][#how-to-work-with-ajax-fields]  
+Call it after Ajax check. For better knowledge how work with Ajax fields go   [here](#how-to-work-with-ajax-fields)   
 **Parameters:**  
 - elem — jQuery object of input  
 - val[type: boolean] — true, if value in input correct, false, if not  
