@@ -33,6 +33,7 @@ Default HTML is —
 - inputarg — custom argument that transfer to your function
 - submitcheck — identifies your submit button  
 - formcheck — identifies your form  
+
 ## Events  
 #### onRightInput(func, override)  
 called when user entered  correct information
@@ -63,9 +64,11 @@ Checks variable, if it undefined returns def_val
 Return true if value is undefined
 **Parameters:**  
 - value — variable for check
+
 ## Default check function  
 #### validateEmail  
 Validating your e-mail field.
+
 ## How to Work With Ajax fields  
 1. Set your check method in attribute 'inputcheckajax'
 2. In your ajax check method after done loading data, call [CheckFormHelper.checkValAjax](#checkformhelper.checkvalajax) with need data
