@@ -37,13 +37,17 @@ Default HTML is —
 ## Events  
 #### onRightInput(func, override)  
 called when user entered  correct information
+
 #### onWrongInput(func, override)  
 called when user entered wrong information
+
 #### onRemoveStateInput(func, override)  
 called when field is empty (usually after blur event or after calling method checkForm)  
+
 ##### Parameters for Events  
 - func — your function.  
 - override (default:**false**) — set it true, if your function need to be override default styling operations for status of input.  
+
 ## Utility methods  
 #### CheckFormHelper.checkValAjax(elem, val, addHTML)  
 Call it after Ajax check. For better knowledge how work with Ajax fields go [here][#how-to-work-with-ajax-fields]  
@@ -51,15 +55,18 @@ Call it after Ajax check. For better knowledge how work with Ajax fields go [her
 - elem — jQuery object of input  
 - val[type: boolean] — true, if value in input correct, false, if not  
 - addHTML[default: defaultHTML] — HTML for your status of input  
+
 #### CheckFormHelper.formValid(elem)  
 Call it if you want to check form.  
 **Parameters:**  
 - elem — jQuery object of form  
+
 #### CheckFormHelper.defaultParameter(param, def_val)  
 Checks variable, if it undefined returns def_val  
 **Parameters:**  
 - param — variable for check  
 - def_val — default value  
+
 #### CheckFormHelper.isUndefined(value)  
 Return true if value is undefined
 **Parameters:**  
