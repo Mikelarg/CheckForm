@@ -50,7 +50,7 @@ called when field is empty (usually after blur event or after calling method che
 
 ## Utility methods  
 #### CheckFormHelper.checkValAjax(elem, val, addHTML)  
-Call it after Ajax check. For better knowledge how work with Ajax fields go [here][#how-to-work-with-ajax-fields]  
+Call it after Ajax check. For better knowledge how work with Ajax fields go   [here][#how-to-work-with-ajax-fields]  
 **Parameters:**  
 - elem — jQuery object of input  
 - val[type: boolean] — true, if value in input correct, false, if not  
@@ -78,5 +78,5 @@ Validating your e-mail field.
 
 ## How to Work With Ajax fields  
 1. Set your check method in attribute 'inputcheckajax'
-2. In your ajax check method after done loading data, call [CheckFormHelper.checkValAjax](#checkformhelper.checkvalajax) with need data
+2. In your ajax check method after done loading data, call [CheckFormHelper.checkValAjax](#checkformhelpercheckvalajaxelem-val-addhtml) with need data
 3. Viola!
